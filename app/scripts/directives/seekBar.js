@@ -50,6 +50,7 @@
             var percent = calculatePercent(seekBar, event);
             scope.$apply(function () {
               scope.value = percent * scope.max;
+              console.log(scope.value)
             });
           });
 
